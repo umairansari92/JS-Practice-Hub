@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Student Marksheet</title>
+</head>
+<body>
+  <h1>Student Marksheet</h1>
+
+  <div>
+    <input type="text" id="studentName" placeholder="Student Name" />
+    <div id="subjectInputs">
+      <!-- Subject inputs dynamically inserted -->
+    </div>
+    <br>
+    <button onclick="addStudent()">Add Student</button>
+  </div>
+
+  <br>
+
+  <table id="marksTable">
+    <thead>
+      <tr>
+        <th>Student</th>
+        <!-- Subject headers dynamically inserted -->
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Data rows will appear here -->
+    </tbody>
+  </table>
+
+</body>
+<script src="app.js"></script>
+</html>
